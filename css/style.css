@@ -1,0 +1,81 @@
+body{
+	font: 15px/1.5 sans-serif;
+	background:  lightgrey;
+}
+
+
+/* Global*/
+.container{
+	max-width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+.highlight{
+	color: orange;
+}
+
+.active{
+	background-color: orange;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+/* header*/
+header{
+	margin: 0;
+	padding: 15px;
+	min-height: 75px;
+	background: darkgrey;
+	border-bottom: 1px solid orange;
+	color: white;
+}
+
+header #brand{
+	float: left;
+}
+
+header #brand h1{
+	margin: 0;
+}
+header li{
+	float: left;
+	list-style: none;
+	padding: 10px;
+}
+
+header a{
+	color: white;
+	text-decoration: none;
+}
+
+header a:hover{
+	background-color: grey;
+	font-size: 30px;
+	font-weight: bold;
+}
+header nav{
+	float:right;
+}
+
+/* main body */
+.main-body{
+	text-align: center;
+}
+
+.main-body .box{
+	width: 30%;
+	float: left;
+}
+
+/* footer*/
+footer{
+	text-align: center;
+	color: white;
+	background-color: orange;
+}
